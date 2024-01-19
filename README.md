@@ -1,6 +1,6 @@
 # MongoDB-Task
 1)	Find all the information about each products?<br/>
-Ans: db.users.find()
+<b>Ans:</b> db.users.find()
 
 2)	Find the product price which are between 400 to 800?<br/>
 Ans: db.users.find({product_price:{$gt: 400, $lt: 800}})
