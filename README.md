@@ -6,7 +6,7 @@
 Ans: db.users.find({product_price:{$gt: 400, $lt: 800}})
 
 3)	Find the product price which are not between 400 to 600?<br/>
-Ans: db.users.find({product_price : {$not :{$gt : 400, $lt : 600} }})
+Ans: db.users.find({product_price : {$not :{$gte : 400, $lte : 600} }})
 
 4)	List the four product which are grater than 500 in price?<br/>
 Ans: db.users.find({product_price: {$gt: 500}}).limit(4)
